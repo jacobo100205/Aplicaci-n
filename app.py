@@ -25,7 +25,7 @@ with tab1:
     st.pyplot(fig)
 
     # análisis bivariado
-    fig, ax = plt.subplots(1, 2, figsize=(10, 4), color = 'blue')
+    fig, ax = plt.subplots(1, 2, figsize=(10, 4))
     # educ vs. wage
     ax[0].scatter(ran['educ'], ran['wage'], color = 'white')
 
