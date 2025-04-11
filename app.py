@@ -40,7 +40,7 @@ with tab2:
            path=[px.Constant("PGN"),
                  "Nombre Sector",
                  "Tipo de gasto"],
-           values='Valor', color="Tipo de gasto", color_discrete_sequence=px.colors.qualitative.Pastel)
+           values='Valor', color="Tipo de gasto", color_discrete_sequence=px.colors.qualitative.Dark24)
            
     
     st.plotly_chart(fig)
