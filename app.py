@@ -27,7 +27,7 @@ with tab1:
     # análisis bivariado
     fig, ax = plt.subplots(1, 2, figsize=(10, 4))
     # educ vs. wage
-    ax[0].scatter(ran['educ'], ran['wage'], color = 'white')
+    ax[0].scatter(ran['educ'], ran['wage'], color = 'blue')
 
     # educ vs. wage
     ax[1].scatter(ran['edad'], ran['wage'], color = 'purple')
